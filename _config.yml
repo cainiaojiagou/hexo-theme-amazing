@@ -13,7 +13,7 @@ head:
     open_graph:
         # Page title (og:title) (optional)
         # You should leave this blank for most of the time
-        title: 辣椒の酱
+        title: 菜鸟架构师之路
         # Page type (og:type) (optional)
         # You should leave this blank for most of the time
         type: blog
@@ -25,10 +25,10 @@ head:
         image: /img/avatar.png
         # Site name (og:site_name) (optional)
         # You should leave this blank for most of the time
-        site_name: 辣椒の酱
+        site_name: 菜鸟架构师之路
         # Page author (article:author) (optional)
         # You should leave this blank for most of the time
-        author: removeif
+        author: 菜鸟架构师之路
         # Page description (og:description) (optional)
         # You should leave this blank for most of the time
         description: java,技术分享,后端开发,支付框架,数据接口,算法,leetcode
@@ -49,7 +49,7 @@ head:
     structured_data:
         # Page title (optional)
         # You should leave this blank for most of the time
-        title: 辣椒の酱
+        title: 菜鸟架构师之路
         # Page description (optional)
         # You should leave this blank for most of the time
         description: java,技术分享,后端开发,支付框架,数据接口,算法,leetcode
@@ -182,11 +182,11 @@ widgets:
         position: left
         type: profile
         # Author name
-        author: 辣椒の酱
+        author: 菜鸟架构师之路
         # Title of the author to be shown in the profile widget
-        author_title: 尚未执佩剑，转眼即江湖
+        author_title: 菜鸟到架构师的成长之路
         # Author's current location to be shown in the profile widget
-        location: 阿尔及利亚
+        location: 深圳
         # Path or URL to the avatar to be shown in the profile widget
         avatar: /img/avatar.png
         # Whether show the rounded avatar image
@@ -212,7 +212,7 @@ widgets:
             RSS:
                 icon: fas fa-rss
                 url: /atom.xml
-        has_hitokoto: true #左边一言开关，true-开，false-关       
+        has_hitokoto: true #左边一言开关，true-开，false-关
 
     # Recommendation links widget configurations
     # Table of contents widget configurations
@@ -265,10 +265,10 @@ widgets:
 #        client_id: ''
 #        # AdSense AD unit ID
 #        slot_id: ''
-#    - 
+#    -
         # position: right
         # type: notice
-        # contents: 
+        # contents:
         #     1: 2019.8.15 <a href="https://github.com/removeif/hexo-theme-amazing" target="_blank">主题开源</a>
         #     2: 2020.5.20 添加公告widget
         #     3: 2020.5.21 公告测试
@@ -355,22 +355,22 @@ comment:
 # comment:
 #     type: utteranc
 #     repo: removeif/utteranc_comment # (required) GitHub userName & repository name
-#     issue_term: pathname 
-#     issue_number: 
-#     label: 
+#     issue_term: pathname
+#     issue_number:
+#     label:
 #     theme: github-light
-  
+
 global_gray: false #true 全局灰色，特定时期可以开启，false-不开启
 
 has_banner: false #首页是否有banner，true-是，false-否，如果配置了热门推荐显示热门推荐，banner配置数据在json_data/banner.json里按照配置格式配置好，至少三条
 
-has_latest_modify_time: true #是否显示最后修改时间 true开启，false-关闭   
+has_latest_modify_time: true #是否显示最后修改时间 true开启，false-关闭
 
 busuanzi_only_count: false #当上面plugins中busuanzi: true时，此配置busuanzi_only_count为true时，网站不显示不蒜子统计数据，但是会每次统计。false时显示统计数据。
 
-has_copyright: true # 文中是否显示copyright true开启，false-关闭   
+has_copyright: true # 文中是否显示copyright true开启，false-关闭
 
-# http://sachinchoolur.github.io/lightGallery/docs/api.html 
+# http://sachinchoolur.github.io/lightGallery/docs/api.html
 lightgallery_is_full: true #图片灯箱是否显示完整的插件(包括放大，分享等)，true-显示，false-显示简洁版
 
 website_start_time: 2018/11/11 00:00:00 #网站运行开始时间,不填不显示
