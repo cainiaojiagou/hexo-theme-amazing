@@ -184,7 +184,7 @@ widgets:
         # Author name
         author: 菜鸟架构师之路
         # Title of the author to be shown in the profile widget
-        author_title: 菜鸟到架构师的成长之路
+        author_title: 从一只菜鸟到架构师的成长之路
         # Author's current location to be shown in the profile widget
         location: 深圳
         # Path or URL to the avatar to be shown in the profile widget
