@@ -19,7 +19,7 @@ head:
         type: blog
         # Page URL (og:url) (optional)
         # You should leave this blank for most of the time
-        url: https://removeif.github.io/
+        url: https://www.cainiaojiagou.com/
         # Page cover (og:image) (optional) Default to the Open Graph image or thumbnail of the page
         # You should leave this blank for most of the time
         image: /img/logo.png
@@ -55,10 +55,10 @@ head:
         description: 本站是菜鸟架构师的技术分享博客。内容包括架构、微服务、分布式、大数据、前端、后端、运维等相关的研究与知识分享。
         # Page URL (optional)
         # You should leave this blank for most of the time
-        url: https://removeif.github.io/
+        url: https://github.com/cainiaojiagou
         # Page author (article:author) (optional)
         # You should leave this blank for most of the time
-        author: removeif
+        author: cainiaojiagou
         # Page images (optional) Default to the Open Graph image or thumbnail of the page
         # You should leave this blank for most of the time
         image: /img/logo.png
@@ -122,18 +122,18 @@ search:
     type: insight
 
 # Donate plugin configurations
-donate:
+#donate:
     # Alipay donate button configurations
-    -
-        # Donation entry name
-        type: alipay
-        # Qrcode image URL
-        qrcode: 'https://raw.githubusercontent.com/removeif/blog_image/master/img/2019/20190802135456.png'
-    -
-        # Donation entry name
-        type: wechat
-        # Qrcode image URL
-        qrcode: 'https://raw.githubusercontent.com/removeif/blog_image/master/img/2019/20190802135550.png'
+#    -
+#        # Donation entry name
+#        type: alipay
+#        # Qrcode image URL
+#        qrcode: 'https://raw.githubusercontent.com/removeif/blog_image/master/img/2019/20190802135456.png'
+#    -
+#        # Donation entry name
+#        type: wechat
+#        # Qrcode image URL
+#        qrcode: 'https://raw.githubusercontent.com/removeif/blog_image/master/img/2019/20190802135550.png'
 #    -
 #    -
 #        type: patreon
@@ -324,14 +324,21 @@ providers:
 
 # Comment plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Comment/
+
+#comment:
+#    type: changyan
+#    app_id: cyv3nRUUo
+#    conf: prod_6a0fb5dd9f991cf10e98f2f41eb15865
+
 comment:
+#    id: location.pathname
     type: gitalk
     language: zh-CN #zh-CN #Localization language key, en, zh-CN and zh-TW are currently available.
-    owner: removeif         # (required) GitHub user name
+    owner: cainiaojiagou         # (required) GitHub user name
     repo: blog_comment          # (required) GitHub repository name
-    client_id: 46a9f3481b46ea0129d8     # (required) OAuth application client id
-    client_secret: 79c7c9cb847e141757d7864453bcbf89f0655b24 # (required) OAuth application client secret
-    admin: ['removeif']
+    client_id: 57a9c757961066fe8292     # (required) OAuth application client id
+    client_secret: f0eb9a85ce010408dd0972de19b6a283e5b24742 # (required) OAuth application client secret
+    admin: ['cainiaojiagou']
     create_issue_manually: true
     distraction_free_mode: false
     has_hot_recommend: true # 是否有热门推荐
