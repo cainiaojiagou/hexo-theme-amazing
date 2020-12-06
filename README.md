@@ -1,12 +1,10 @@
 **预览图**
 + 首页1
-![](https://cdn.jsdelivr.net/gh/removeif/blog_image/img/2020/20200208141757.png)
+![](https://cdn.jsdelivr.net/gh/removeif/blog_image/img/2020/20200923152909.png)
 + 首页2
-![](https://cdn.jsdelivr.net/gh/removeif/blog_image/img/2020/20200208142200.png)
-+ 博客文章
-![](https://cdn.jsdelivr.net/gh/removeif/blog_image/img/2020/20200208142111.png)
+![](https://cdn.jsdelivr.net/gh/removeif/blog_image/img/2020/20200923153331.png)
 + 首页深色
-![](https://cdn.jsdelivr.net/gh/removeif/blog_image/img/2020/20200208142013.png)
+![](https://cdn.jsdelivr.net/gh/removeif/blog_image/img/2020/20200923153450.png)
 
 ### 写在前面
 
@@ -18,10 +16,9 @@
 **使用之前请详细阅读此文档，以及主题配置文件_config.yml**  
 **相关使用问题也在此[issue](https://github.com/removeif/hexo-theme-amazing/issues/16)有说明，请先查看**
 
-**本仓库为纯主题仓库，博客主题完整仓库(已不维护)请移步为[hexo-theme-icarus-removeif](https://github.com/removeif/hexo-theme-icarus-removeif)**
-
-
-**增加adsense分支，此分支信息流中加入adsense广告，如[本博客](https://removeif.github.io/)adsense每个地方的使用方式，具体请移步[branch](https://github.com/removeif/hexo-theme-amazing/tree/adsense)**
+**本仓库为纯主题仓库，博客主题完整仓库(已不维护)请移步为[hexo-theme-icarus-removeif](https://github.com/removeif/hexo-theme-icarus-removeif)**  
+**master分支已在信息流中加入adsense广告配置**  
+**提供site分支博客demo源码**
 
 线上博客：[欢迎围观](https://removeif.github.io/)，[博客源码Live Demo](https://removeif.github.io/removeif-demo/)
 
@@ -50,6 +47,7 @@
 + 支持valine最新评论以及文章评论数显示
 + utteranc评论随博客主题切换自动切换深色主题
 + 首页增加可配置banner参考自[水寒教程](https://dp2px.com/2019/08/13/hexo-carousel/)
++ 有问题可以在线询问[gitter.im](https://gitter.im/hexo-theme-amazing/community)
 + `还有什么新的，好的feature欢迎大家随时提出来，有能力有时间就做出来`
 
 ### 二、部分配置说明：
@@ -355,69 +353,3 @@ This project is licensed under the MIT License - see the [LICENSE](https://githu
 #### 效果如下（多图左右拉查看）
 [查看效果](https://removeif.github.io/theme/%E5%8D%9A%E5%AE%A2%E6%BA%90%E7%A0%81%E5%88%86%E4%BA%AB.html#效果如下（多图左右拉查看）)
 
-### 主题快照：
-+ 主页
-![](https://cdn.jsdelivr.net/gh/removeif/blog_image/img/2020/20200208141757.png)
-+ 置顶
-![](https://cdn.jsdelivr.net/gh/removeif/blog_image/img/2019/20190926210437.png)
-+ 文章评论数
-![](https://cdn.jsdelivr.net/gh/removeif/blog_image/img/2019/20191016133335.png)
-+ 推荐文章模块
-![](https://cdn.jsdelivr.net/gh/removeif/blog_image/img/2019/20191107131513.png)
-+ 归档
-![](https://cdn.jsdelivr.net/gh/removeif/blog_image/img/2020/20200214190807.png)
-+ 留言
-![](https://cdn.jsdelivr.net/gh/removeif/blog_image/img/2019/20190919221820.png)
-+ 友链
-![](https://cdn.jsdelivr.net/gh/removeif/blog_image/img/2019/20190919221917.png)
-+ 美图
-![](https://cdn.jsdelivr.net/gh/removeif/blog_image/img/2019/20190919221949.png)
-+ 影音
-![](https://cdn.jsdelivr.net/gh/removeif/blog_image/img/2019/20190919222030.png)
-+ 关于
-![](https://cdn.jsdelivr.net/gh/removeif/blog_image/img/2019/20190919222131.png)
-
-### 提供hexo博客目录下依赖包 package.json
-```json
-{
-  "name": "hexo-site",
-  "version": "3.0.0",
-  "private": true,
-  "scripts": {
-    "build": "hexo generate",
-    "clean": "hexo clean",
-    "deploy": "hexo deploy",
-    "server": "hexo server"
-  },
-  "hexo": {
-    "version": "4.2.0"
-  },
-  "dependencies": {
-    "ajv": "^6.10.2",
-    "bulma-stylus": "0.8.0",
-    "deepmerge": "^4.2.2",
-    "hexo": "^4.2.0",
-    "hexo-blog-encrypt": "^3.0.3",
-    "hexo-deployer-git": "^2.1.0",
-    "hexo-generator-archive": "^1.0.0",
-    "hexo-generator-category": "^1.0.0",
-    "hexo-generator-feed": "^2.2.0",
-    "hexo-generator-index": "^1.0.0",
-    "hexo-generator-tag": "^1.0.0",
-    "hexo-log": "^1.0.0",
-    "hexo-pagination": "^1.0.0",
-    "hexo-renderer-inferno": "^0.1.1",
-    "hexo-renderer-marked": "^2.0.0",
-    "hexo-renderer-stylus": "^1.1.0",
-    "hexo-server": "^1.0.0",
-    "hexo-util": "^1.8.0",
-    "inferno": "^7.3.3",
-    "inferno-create-element": "^7.3.3",
-    "js-yaml": "^3.13.1",
-    "moment": "^2.22.2",
-    "save": "^2.4.0",
-    "semver": ">=5.0.0"
-  }
-}
-
-```
